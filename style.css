@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+body {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  text-align: left;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.container header {
+  width: 45%;
+}
+.title {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px 10px 40px;
+  text-align: left;
+  color: hsl(229, 6%, 66%);
+}
+header .p1 {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+.title span {
+  color: hsl(229, 6%, 66%);
+  font-size: 20px;
+  font-weight: 600;
+}
+.title strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cards {
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: 8px 25px 31px -11px rgba(0, 0, 0, 0.54);
+  border-radius: 5px;
+  padding: 10px;
+  height: calc(100% / 3);
+}
+.cards .pic {
+  float: right;
+}
+.cards h2 {
+  margin-left: 10px;
+}
+
+.container .card1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 0;
+  top: 40%;
+}
+.container .card2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  width: 30%;
+}
+.container .card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  width: 30%;
+}
+.container .card4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  right: 0;
+  top: 40%;
+}
+
+@media  (max-width: 960px) {
+  body {
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  text-align: left;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container header {
+  width: 45%;
+}
+.title {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+p {
+  margin: 10px 10px 40px;
+  text-align: left;
+  color: hsl(229, 6%, 66%);
+}
+header .p1 {
+  font-size: 13px;
+  font-weight: 400;
+  text-align: center;
+}
+.title span {
+  color: hsl(229, 6%, 66%);
+  font-size: 20px;
+  font-weight: 600;
+}
+.title strong {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.cards {
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: 8px 25px 31px -11px rgba(0, 0, 0, 0.54);
+  border-radius: 5px;
+  padding: 10px;
+  height: calc(100% / 3);
+}
+.cards .pic {
+  float: right;
+}
+.cards h2 {
+  margin-left: 10px;
+}
+
+.container .card1 {
+  border-top: 5px solid hsl(180, 62%, 55%);
+  width: 30%;
+}
+.container .card2 {
+  border-top: 5px solid hsl(0, 78%, 62%);
+  width: 30%;
+}
+.container .card3 {
+  border-top: 5px solid hsl(34, 97%, 64%);
+  width: 30%;
+}
+.container .card4 {
+  border-top: 5px solid hsl(212, 86%, 64%);
+  width: 30%;
+ 
+}
+}
+
+/*@media (width: 240px) and (width: 375px) {
+  body {
+    background-color: hsl(0, 0%, 98%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main {
+    text-align: left;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .title {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+  }
+  p {
+    margin: 10px 10px 40px;
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+  }
+  .title span {
+    color: hsl(229, 6%, 66%);
+  }
+
+  .cards {
+    background-color: #ffffff;
+    margin: 10px;
+    box-shadow: 8px 25px 31px -11px rgba(0, 0, 0, 0.54);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    height: calc(100% / 3);
+  }
+  .cards .pic {
+    float: right;
+  }
+  .cards h2 {
+    margin-left: 10px;
+  }
+
+  .container .card1 {
+    border-top: 5px solid hsl(180, 62%, 55%);
+  }
+  .card2 {
+    border-top: 5px solid hsl(0, 78%, 62%);
+  }
+  .card3 {
+    border-top: 5px solid hsl(34, 97%, 64%);
+  }
+  .card4 {
+    border-top: 5px solid hsl(212, 86%, 64%);
+  }
+}
+*/
